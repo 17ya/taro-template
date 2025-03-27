@@ -80,6 +80,8 @@
     "react-refresh": "^0.14.0",
     "sass": "^1.75.0",
     "postcss": "^8.4.38"
+  },
+  "resolutions": {
+    "@swc/register": "0.1.9"
   }
 }
-
