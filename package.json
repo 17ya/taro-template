@@ -81,5 +81,10 @@
     "stylelint": "^16.4.0",
     "terser": "^5.30.4",
     "vite": "^4.2.0"
+  },
+  "resolutions": {
+    "@swc/core": "npm:@swc/wasm@1.3.84",
+    "@swc/helpers": "0.5.2",
+    "@swc-node/core": "npm:@swc/wasm@1.3.84"
   }
 }

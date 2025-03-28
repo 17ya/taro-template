@@ -26,12 +26,6 @@ export default defineConfig(async (merge, { command, mode }) => {
     framework: "react",
     compiler: {
       type: "vite",
-      prebundle: {
-        enable: false,
-        swc: {
-          enable: false,
-        },
-      },
     },
     mini: {
       postcss: {
