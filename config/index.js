@@ -28,6 +28,9 @@ export default defineConfig(async (merge, { command, mode }) => {
       type: "vite",
       prebundle: {
         enable: false,
+        swc: {
+          enable: false,
+        },
       },
     },
     mini: {
